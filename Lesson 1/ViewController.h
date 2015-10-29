@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
+@property (weak, nonatomic) IBOutlet UILabel *label;
+- (IBAction)touchButton:(id)sender;
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *button;
 @end
 

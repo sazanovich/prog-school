@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)touchButton:(id)sender
+{
+    [self.label setText:[NSString stringWithFormat:@"%d",arc4random() % 100]];
+}
 @end
